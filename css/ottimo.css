@@ -1,0 +1,167 @@
+html{
+    min-height:100%;
+}
+body{
+    color: #242221;
+    line-height: 150%; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+#title-text{
+    color: #555;
+}
+
+.container{
+	background-color: #fff;
+}
+.front-page{
+	font-size: 16px;
+}
+#front-page-body { 
+    background-color: #333;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:100%;
+}
+
+#splash-body { 
+    background-image: url('../img/4sv/old/spokes.jpg');
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.ottimo-button{
+	display: inline-block;
+	background-color: #dde;
+	text-align: center; 
+	padding: 7px 10px;
+	margin: 5px 0px;
+	text-shadow: 2px 2px #ccc; 
+	text-decoration: none;
+}
+
+a>.ottimo-button{
+    color: #444;
+}
+.ottimo-thumbnail{
+    max-width: 600px;
+    width: auto;
+    height: 280px;
+    padding: 10px 5px;
+}
+.nav>li>a:hover{
+    background-color: transparent;
+}
+/*.ottimo-thumbnail{
+  max-width: 400px;
+  width: auto;
+  height: 150px;
+  padding: 10px;
+}*/
+
+
+.navbar .container{
+	background-color: #888888;
+	text-decoration: none;
+}
+h1,h2,h3,h4,.web-font{
+	font-family: 'Quicksand', sans-serif;
+    color: #555;
+}
+a, a:visited{
+	color: #8ae;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus{
+	color: #dd912a;	
+}
+.navbar{
+	display: block;
+	background-color: #888;
+	background-color: #b94a48;    
+	background-color: #89b1e5;    
+	border-radius: 0px;	
+	padding: 0px;	
+}
+.navbar a{
+	color: #fff;
+	font-style: bold;
+	font-size: 18px;
+}
+
+.navbar-header a{	
+	color: #333311;
+	font-family: 'Montserrat Subrayada', sans-serif;
+}
+.divider {
+    border-top: 1px dotted #eeeeee;
+    height: 1px;
+    width: 100%;
+}
+.navbar-toggle{
+	border-color: #dd912a;	
+}
+.icon-bar{
+	color: #eeeeee;
+}
+.footer-links{
+	list-style: none;
+}
+
+.ottimo-hr{
+	border: transparent; 
+	border-bottom: 2px dotted #999;
+}
+.carousel-caption{
+	 text-shadow: 2px 2px black;
+	 color: #ffb21d;
+	 background-color: #464038;
+	 opacity: 0.8;
+}
+.accordion-toggle h5{
+	font-size: 24px;
+}
+.ottimo-table{
+	font-size: 16px;
+    color: #111;
+    background-color: #fff;
+}
+.weld-thumbnail{
+	padding: 0px;
+	margin: 7px;
+
+	width: 47%;
+	display: inline-block;
+}
+.aspect-box{
+    width: 100%;
+    float: left;
+    height: 250px;
+    background-color: #111111;
+    margin:  20px 0px;
+    background-size: cover;
+  }
+ #gallery-div {
+     background-color: #555; 
+     color: white; 
+     margin: 0px -15px; 
+     padding: 5px 15px;
+     text-align: center;
+     color: #eee;
+ }
+ #gallery-div h1{
+     text-align: left;
+     color: white;
+ }
+ .front-page-div{
+     color: white; background-color: transparent; opacity: 1; margin-top: 10px; 
+     text-shadow: black 2px 2px 6px;
+ }
+ #front-page-title{
+     color: #ccc;
+     text-shadow: none;
+ }
